@@ -47,4 +47,12 @@ pipeline {
         }
           
     }
+    post{
+        success{
+             echo "It will run when the pipeline is success"
+        }
+        failure {
+             echo "It will run when the pipeline is failure" 
+        }
+    }
 }        
