@@ -26,7 +26,6 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'echo this is test'
-                sh 'sleep 10'
             }
         }
         stage('Deploy') {
@@ -42,6 +41,7 @@ pipeline {
                 echo "Choice: ${params.CHOICE}"
                 echo "Password: ${params.PASSWORD}"
                 echo "trigger test again"
+                dfd;fdf;
 
             }
         }
